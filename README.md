@@ -1,39 +1,25 @@
-# Fine-Tune an Open-Source Customer Support LLM (QLoRA)
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM-Fine_Tuning-FF6F00?style=for-the-badge" alt="LLM" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" />
+</p>
 
-## Project Overview
+<h1 align="center">Customer Support LLM Fine-Tuning</h1>
 
-In this project, you will fine-tune an **open-source LLM (Llama 3.2 3B)** using **QLoRA** to build a customer support chatbot. You will work with a real-world dataset, train and evaluate your model.
+<p align="center">
+  <strong>Fine-tuning open-source LLMs for customer support use cases — training domain-specific models that outperform generic LLMs on support tasks.</strong>
+</p>
 
-This assignment is designed to mirror a real industry fine-tuning workflow using modern open-source tooling.
+---
 
-## Learning Objectives
+## Overview
 
-By completing this project, you will:
+Part of a series exploring LLM fine-tuning for production use cases. See `Instructions.md` for the full experiment design, dataset preparation, training configuration, and evaluation methodology.
 
-- Set up an environment for fine-tuning open-source LLMs
-- Prepare and format real-world instruction-style datasets
-- Fine-tune a model using **QLoRA (4-bit + LoRA adapters)**
-- Evaluate a fine-tuned model against a base model
-- Run inference and demonstrate results with a small demo
+## Quick Start
 
-## Project Scenario
-
-You are tasked with building a **customer support chatbot** trained on historical support conversations.
-
-**Model**: Llama 3.2 3B  
-**Technique**: QLoRA  
-**Dataset**: Bitext Customer Support Dataset (Hugging Face)
-
-The goal is to improve the model’s ability to respond clearly, professionally, and accurately to customer queries compared to the base model.
-
-## What You Need to Do
-
-You will:
-
-- Prepare the dataset for instruction/chat-style training
-- Fine-tune the model using QLoRA
-- Evaluate performance (qualitative + basic quantitative)
-- Run inference on custom prompts
-- Add a simple demo (e.g., Gradio)
-
-All **step-by-step instructions**, including environment setup and code guidance, are provided in **`instructions.md`**.
+```bash
+git clone https://github.com/smqd19/Customer_Support_OpenSource_LLM_Finetuning.git
+cd Customer_Support_OpenSource_LLM_Finetuning
+cat Instructions.md    # Full experiment guide
+```
